@@ -55,7 +55,7 @@ ROOT_URLCONF = 'registrosdem3.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['E:/Programacion-proyectos/jco-registros-m3/registrosdem3/registros/template/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

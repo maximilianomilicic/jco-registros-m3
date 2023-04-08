@@ -16,10 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from registros.views import *
-from registros.views import Home
+from registros.views import Home, otra_plantilla
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', Home),
+    path('otra_planilla', otra_plantilla),
 ]
